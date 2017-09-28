@@ -17,6 +17,7 @@
 		B3EE9A711F7C68BE00AF6044 /* Tumblr_FeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE9A701F7C68BE00AF6044 /* Tumblr_FeedTests.swift */; };
 		B3EE9A7C1F7C68BE00AF6044 /* Tumblr_FeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE9A7B1F7C68BE00AF6044 /* Tumblr_FeedUITests.swift */; };
 		B3EE9A8A1F7C718D00AF6044 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE9A891F7C718D00AF6044 /* PhotosViewController.swift */; };
+		B3EE9A8C1F7CB08300AF6044 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE9A8B1F7CB08300AF6044 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B3EE9A7B1F7C68BE00AF6044 /* Tumblr_FeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumblr_FeedUITests.swift; sourceTree = "<group>"; };
 		B3EE9A7D1F7C68BE00AF6044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3EE9A891F7C718D00AF6044 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		B3EE9A8B1F7CB08300AF6044 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		F1A89A89AF3869E85224BC17 /* Pods-Tumblr-FeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr-FeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr-FeedTests/Pods-Tumblr-FeedTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 				B3EE9A641F7C68BE00AF6044 /* LaunchScreen.storyboard */,
 				B3EE9A671F7C68BE00AF6044 /* Info.plist */,
 				B3EE9A891F7C718D00AF6044 /* PhotosViewController.swift */,
+				B3EE9A8B1F7CB08300AF6044 /* PhotoCell.swift */,
 			);
 			path = "Tumblr-Feed";
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3EE9A5C1F7C68BE00AF6044 /* AppDelegate.swift in Sources */,
+				B3EE9A8C1F7CB08300AF6044 /* PhotoCell.swift in Sources */,
 				B3EE9A8A1F7C718D00AF6044 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
