@@ -339,7 +339,7 @@ extension UIImageView {
     // MARK: - Image Download Cancellation
 
     /// Cancels the active download request, if one exists.
-    public func af_cancelImageRequest() {
+    @objc public func af_cancelImageRequest() {
         guard let activeRequestReceipt = af_activeRequestReceipt else { return }
 
         let imageDownloader = af_imageDownloader ?? UIImageView.af_sharedImageDownloader

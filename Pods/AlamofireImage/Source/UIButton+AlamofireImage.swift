@@ -241,7 +241,7 @@ extension UIButton {
     }
 
     /// Cancels the active download request for the image, if one exists.
-    public func af_cancelImageRequest(for state: UIControlState) {
+    @objc public func af_cancelImageRequest(for state: UIControlState) {
         guard let receipt = imageRequestReceipt(for: state) else { return }
 
         let imageDownloader = af_imageDownloader ?? UIButton.af_sharedImageDownloader
@@ -388,7 +388,7 @@ extension UIButton {
     }
 
     /// Cancels the active download request for the background image, if one exists.
-    public func af_cancelBackgroundImageRequest(for state: UIControlState) {
+    @objc public func af_cancelBackgroundImageRequest(for state: UIControlState) {
         guard let receipt = backgroundImageRequestReceipt(for: state) else { return }
 
         let imageDownloader = af_imageDownloader ?? UIButton.af_sharedImageDownloader

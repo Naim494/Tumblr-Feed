@@ -13,7 +13,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     
     @IBOutlet weak var tableView: UITableView!
    
-    var posts : [[ String: Any]] = []
+    @objc var posts : [[ String: Any]] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
